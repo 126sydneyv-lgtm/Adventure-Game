@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.choice1Button = new System.Windows.Forms.Button();
             this.choice2Button = new System.Windows.Forms.Button();
             this.choice3Button = new System.Windows.Forms.Button();
@@ -36,9 +37,10 @@
             // 
             // choice1Button
             // 
+            this.choice1Button.AutoSize = true;
             this.choice1Button.Location = new System.Drawing.Point(186, 317);
             this.choice1Button.Name = "choice1Button";
-            this.choice1Button.Size = new System.Drawing.Size(75, 23);
+            this.choice1Button.Size = new System.Drawing.Size(75, 26);
             this.choice1Button.TabIndex = 0;
             this.choice1Button.Text = "button1";
             this.choice1Button.UseVisualStyleBackColor = true;
@@ -46,9 +48,10 @@
             // 
             // choice2Button
             // 
+            this.choice2Button.AutoSize = true;
             this.choice2Button.Location = new System.Drawing.Point(382, 317);
             this.choice2Button.Name = "choice2Button";
-            this.choice2Button.Size = new System.Drawing.Size(75, 23);
+            this.choice2Button.Size = new System.Drawing.Size(75, 26);
             this.choice2Button.TabIndex = 1;
             this.choice2Button.Text = "button1";
             this.choice2Button.UseVisualStyleBackColor = true;
@@ -56,9 +59,10 @@
             // 
             // choice3Button
             // 
+            this.choice3Button.AutoSize = true;
             this.choice3Button.Location = new System.Drawing.Point(574, 317);
             this.choice3Button.Name = "choice3Button";
-            this.choice3Button.Size = new System.Drawing.Size(75, 23);
+            this.choice3Button.Size = new System.Drawing.Size(75, 26);
             this.choice3Button.TabIndex = 2;
             this.choice3Button.Text = "button1";
             this.choice3Button.UseVisualStyleBackColor = true;
@@ -82,8 +86,9 @@
             this.Controls.Add(this.choice3Button);
             this.Controls.Add(this.choice2Button);
             this.Controls.Add(this.choice1Button);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Into The Void";
             this.ResumeLayout(false);
             this.PerformLayout();
 

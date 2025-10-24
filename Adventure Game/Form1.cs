@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -110,12 +111,15 @@ namespace Adventure_Game
 
         private void DisplayScene()
         {
-            choice3Button.Text = false;
+            choice3Button.Visible = false;
 
             switch (scene)
             {
                 case 0:
-                    outputLabel.Text = "You wake up to flashing red lights. (Pause)\n“Warning: oxygen levels critical.”";
+                    outputLabel.Text = "You wake up to flashing red lights." + "\n";
+                    Thread.Sleep(1000);
+                    Refresh();
+                    outputLabel.Text += "“Warning: oxygen levels critical.”";
                     choice1Button.Text = "Check damage";
                     choice2Button.Text = "Check oxygen";
                     break;
