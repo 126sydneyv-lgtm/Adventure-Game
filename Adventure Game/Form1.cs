@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace Adventure_Game
 {
@@ -116,6 +117,7 @@ namespace Adventure_Game
             switch (scene)
             {
                 case 0:
+                    BackgroundImage = Properties.Resources.cockpit;
                     outputLabel.Text = "You wake up to flashing red lights." + "\n";
                     Thread.Sleep(1000);
                     Refresh();
@@ -125,19 +127,22 @@ namespace Adventure_Game
                     break;
 
                 case 1:
+                    BackgroundImage = Properties.Resources.
                     outputLabel.Text = "A hull breach alarm blares. Try to repair it or seal the door?";
                     choice1Button.Text = "Repair breach";
                     choice2Button.Text = "Seal the door";
                     break;
 
                 case 2:
-                    outputLabel.Text = "Oxygen at 25%. Head for the control room or the escape pod?";
+                    BackgroundImage = Properties.Resources.
+                   outputLabel.Text = "Oxygen at 25%. Head for the control room or the escape pod?";
                     choice1Button.Text = "Control room";
                     choice2Button.Text = "Escape pod";
                     break;
 
                 case 3:
-                    outputLabel.Text = "You repair the hull. You find the emergency generator sparking. Divert power?";
+                    BackgroundImage = Properties.Resources.
+                   outputLabel.Text = "You repair the hull. You find the emergency generator sparking. Divert power?";
                     choice1Button.Text = "Oxygen systems";
                     choice2Button.Text = "Communications";
                     break;
@@ -149,43 +154,49 @@ namespace Adventure_Game
                     break;
 
                 case 5:
-                    outputLabel.Text = "You must cross a damaged corridor to reach the control room...";
+                    BackgroundImage = Properties.Resources.corridor;
+                   outputLabel.Text = "You must cross a damaged corridor to reach the control room...";
                     choice1Button.Text = "Proceed";
                     choice2Button.Text = "";
                     break;
 
                 case 6:
+                    BackgroundImage = Properties.Resources.controlPanel;
                     outputLabel.Text = "You make it safely. Send a signal to Earth or nearby colonies?";
                     choice1Button.Text = "Earth";
                     choice2Button.Text = "Colonies";
                     break;
 
                 case 7:
-                    outputLabel.Text = "You’re injured crossing the corridor. Oxygen leaks faster. Send a signal?";
+                    BackgroundImage = Properties.Resources.controlPanel;
+                   outputLabel.Text = "You’re injured crossing the corridor. Oxygen leaks faster. Send a signal?";
                     choice1Button.Text = "Earth";
                     choice2Button.Text = "Colonies";
                     break;
 
                 case 8:
-                    outputLabel.Text = "Sensors detect a small livable planet nearby. Land or stay in orbit?";
+                    BackgroundImage = Properties.Resources.window;
+                   outputLabel.Text = "Sensors detect a small livable planet nearby. Land or stay in orbit?";
                     choice1Button.Text = "Land";
                     choice2Button.Text = "Stay in orbit";
                     break;
 
                 case 9:
-                    outputLabel.Text = "A livable planet shows up on your scan. Land or stay in orbit?";
+                    BackgroundImage = Properties.Resources.window;
+                   outputLabel.Text = "A livable planet shows up on your scan. Land or stay in orbit?";
                     choice1Button.Text = "Land";
                     choice2Button.Text = "Stay in orbit";
                     break;
 
                 case 10:
-                    outputLabel.Text = "Your suit valve is loose. Fix it now or risk it during descent?";
+                   outputLabel.Text = "Your suit valve is loose. Fix it now or risk it during descent?";
                     choice1Button.Text = "Fix it";
                     choice2Button.Text = "Hope it holds";
                     break;
 
                 case 11:
-                    outputLabel.Text = "You encounter alien lifeforms! What do you do?";
+                    BackgroundImage = Properties.Resources.
+                   outputLabel.Text = "You encounter alien lifeforms! What do you do?";
                     choice1Button.Text = "Approach peacefully";
                     choice2Button.Text = "Hide";
                     choice3Button.Text = "Attack";
@@ -193,31 +204,36 @@ namespace Adventure_Game
                     break;
 
                 case 91:
-                    outputLabel.Text = "The aliens accept your peaceful approach. You form an alliance.";
+                    BackgroundImage = Properties.Resources.
+                   outputLabel.Text = "The aliens accept your peaceful approach. You form an alliance.";
                     choice1Button.Text = "End Game";
                     choice2Button.Text = "";
                     break;
 
                 case 92:
-                    outputLabel.Text = "You try to hide, but the aliens find you. You’re captured.";
+                    BackgroundImage = Properties.Resources.
+                   outputLabel.Text = "You try to hide, but the aliens find you. You’re captured.";
                     choice1Button.Text = "End Game";
                     choice2Button.Text = "";
                     break;
 
                 case 93:
-                    outputLabel.Text = "You attack the aliens. They retaliate. You’re destroyed.";
+                    BackgroundImage = Properties.Resources.
+                   outputLabel.Text = "You attack the aliens. They retaliate. You’re destroyed.";
                     choice1Button.Text = "End Game";
                     choice2Button.Text = "";
                     break;
 
                 case 98:
-                    outputLabel.Text = "You stay in orbit. A rescue ship arrives. You’re saved!";
+                    BackgroundImage = Properties.Resources.
+                   outputLabel.Text = "You stay in orbit. A rescue ship arrives. You’re saved!";
                     choice1Button.Text = "End Game";
                     choice2Button.Text = "";
                     break;
 
                 case 99:
-                    outputLabel.Text = "You launch the escape pod but drift endlessly into space...";
+                    BackgroundImage = Properties.Resources.
+                   outputLabel.Text = "You launch the escape pod but drift endlessly into space...";
                     choice1Button.Text = "End Game";
                     choice2Button.Text = "";
                     break;
