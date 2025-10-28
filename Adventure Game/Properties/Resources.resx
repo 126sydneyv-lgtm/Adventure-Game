@@ -118,6 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="alarm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\383254__klankbeeld__fire-alarm.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="captured" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\17074487_071125-cc-otrc-alienearth4-img.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cockpit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cockpit-spaceship-with-display-buttons-red-blue-green-display_900775-44725.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -127,8 +133,47 @@
   <data name="corridor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\spaceship-corridor-damaged-3d-model-697c2948d7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="destroyed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VG-RP-Top10-VideoGames-With-The-Best-Explosion-Effects-720p30_480.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TOS-EyeShine.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="generator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1240901979-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hallway" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jake-turocy-s-hallway-6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\725828__clif_creates__basic-spaceship-engine-bass.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="leak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\277360__beerbelly38__file0571_air_hiss_weak.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f7f3c704b29bf854937bc12410b10965.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oxygen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\787618__lyubomir_ikonomov__attention-low-oxygen-levelsoxygen-mask-required.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\720762__peter_scream__pain-6.mp3;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rescued" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ahof3cnzBf9DDULghZo4A7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\607943__bloodpixelhero__sensor-signal.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Space" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ae3b0e0b04c9dc260e6d7054c3c3955c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sparks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\396240__weaveofkev__welding_electric-sparks.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="window" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\istockphoto-1344364437-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

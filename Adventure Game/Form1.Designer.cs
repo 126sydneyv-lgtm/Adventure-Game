@@ -38,9 +38,10 @@
             // choice1Button
             // 
             this.choice1Button.AutoSize = true;
-            this.choice1Button.Location = new System.Drawing.Point(186, 317);
+            this.choice1Button.Location = new System.Drawing.Point(209, 396);
+            this.choice1Button.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.choice1Button.Name = "choice1Button";
-            this.choice1Button.Size = new System.Drawing.Size(75, 26);
+            this.choice1Button.Size = new System.Drawing.Size(84, 32);
             this.choice1Button.TabIndex = 0;
             this.choice1Button.Text = "button1";
             this.choice1Button.UseVisualStyleBackColor = true;
@@ -49,9 +50,10 @@
             // choice2Button
             // 
             this.choice2Button.AutoSize = true;
-            this.choice2Button.Location = new System.Drawing.Point(382, 317);
+            this.choice2Button.Location = new System.Drawing.Point(430, 396);
+            this.choice2Button.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.choice2Button.Name = "choice2Button";
-            this.choice2Button.Size = new System.Drawing.Size(75, 26);
+            this.choice2Button.Size = new System.Drawing.Size(84, 32);
             this.choice2Button.TabIndex = 1;
             this.choice2Button.Text = "button1";
             this.choice2Button.UseVisualStyleBackColor = true;
@@ -60,9 +62,10 @@
             // choice3Button
             // 
             this.choice3Button.AutoSize = true;
-            this.choice3Button.Location = new System.Drawing.Point(574, 317);
+            this.choice3Button.Location = new System.Drawing.Point(646, 396);
+            this.choice3Button.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.choice3Button.Name = "choice3Button";
-            this.choice3Button.Size = new System.Drawing.Size(75, 26);
+            this.choice3Button.Size = new System.Drawing.Size(84, 32);
             this.choice3Button.TabIndex = 2;
             this.choice3Button.Text = "button1";
             this.choice3Button.UseVisualStyleBackColor = true;
@@ -71,22 +74,26 @@
             // outputLabel
             // 
             this.outputLabel.AutoSize = true;
-            this.outputLabel.Location = new System.Drawing.Point(385, 114);
+            this.outputLabel.BackColor = System.Drawing.Color.White;
+            this.outputLabel.Location = new System.Drawing.Point(433, 142);
             this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(44, 16);
+            this.outputLabel.Size = new System.Drawing.Size(51, 20);
             this.outputLabel.TabIndex = 3;
             this.outputLabel.Text = "label1";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(900, 562);
             this.Controls.Add(this.outputLabel);
             this.Controls.Add(this.choice3Button);
             this.Controls.Add(this.choice2Button);
             this.Controls.Add(this.choice1Button);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Into The Void";
             this.ResumeLayout(false);

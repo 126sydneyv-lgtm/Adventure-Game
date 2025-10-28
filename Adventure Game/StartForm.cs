@@ -16,5 +16,17 @@ namespace Adventure_Game
         {
             InitializeComponent();
         }
+
+        private void StartForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 adventureForm = new Form1();
+            adventureForm.Show();
+            this.Hide();
+        }
     }
 }
