@@ -194,6 +194,7 @@ namespace Adventure_Game
                     player.Play();
                     outputLabel.Text = "You’re injured crossing the corridor. Oxygen leaks faster. Send a signal?";
                     choice1Button.Text = "Earth";
+                    choice2Button.Visible = true;
                     choice2Button.Text = "Colonies";
                     break;
 
