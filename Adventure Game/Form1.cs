@@ -118,6 +118,7 @@ namespace Adventure_Game
             DisplayScene();
         }
 
+        //displays scene depending on what you chose
         private async Task DisplayScene()
         {
             choice3Button.Visible = false;
