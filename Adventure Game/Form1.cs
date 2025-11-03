@@ -13,19 +13,22 @@ using System.Media;
 namespace Adventure_Game
 {
     public partial class Form1 : Form
-    {
+    {//tracks scene number
         int scene = 0;
+        // for the random event (crossing the corridor)
         Random randGen = new Random();
+        //for playing sound effects
         SoundPlayer player;
         public Form1()
         {
             InitializeComponent();
-            DisplayScene();
+            DisplayScene(); //displays first scene
         }
 
         private void choice1Button_Click(object sender, EventArgs e)
         {
-            HandleChoice(1);
+            HandleChoice(1); //handles players choice (option 1)
+            //restart sound
             player.Stop();
             player.Play();
             
@@ -33,18 +36,19 @@ namespace Adventure_Game
 
         private void choice2Button_Click(object sender, EventArgs e)
         {
-            HandleChoice(2);
+            HandleChoice(2); //handles players choice (option 2)
             player.Stop();
             player.Play();
         }
 
         private void choice3Button_Click(object sender, EventArgs e)
         {
-            HandleChoice(3);
+            HandleChoice(3); //handles players choice (option 3)
             player.Stop();
             player.Play();
         }
 
+        //handles the choice made by the player and updates scene number
         private void HandleChoice(int choice)
         {
             switch (scene)
@@ -109,7 +113,7 @@ namespace Adventure_Game
                     else if (choice == 2) scene = 92; // hide
                     else scene = 93; // attack
                     break;
-
+                    
                 default:
                     Application.Exit();
                     break;
@@ -122,7 +126,7 @@ namespace Adventure_Game
         private async Task DisplayScene()
         {
             choice3Button.Visible = false;
-
+            
             switch (scene)
             {
                 case 0:
